@@ -5,7 +5,8 @@
   "license": "MIT",
   "private": "true",
   "scripts": {
-    "dev": "node dev-server "
+    "d": "node dev-server src/main.ts",
+    "t": "jest --watchAll"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
